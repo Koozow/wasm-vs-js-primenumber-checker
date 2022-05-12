@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>WebAssembly Demo</title>
+  </head>
+  <body>
+    <h1>WebAssembly Demo</h1>
+    <script>
+
+    //import object
+    const imports= {
+        env: {
+            numLog: console.log,
+            strLog: console.log
+        }
+    }
+      // WebAssembly loading
+      WebAssembly.instantiateStreaming(fetch("/program.wasm"), imports)
+      .then(wasm=>{
+          console.log("Wasm Ready.");
+
+          //Make wasm object acessible
+          window.wasm=wasm;
+      })
+    </script>
+  </body>
+</html>
