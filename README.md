@@ -1,5 +1,5 @@
 # wasm-vs-js-primenumber-checker
-first u need to make sure to download Emscripten, the steps are as following:
+first u need to make sure to download and install Emscripten, the steps are as following:
 
 // cloning Emscripten repo
 
