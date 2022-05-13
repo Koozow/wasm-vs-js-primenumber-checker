@@ -3,14 +3,19 @@ first u need to make sure to download Emscripten, the steps are as following:
 
 // cloning Emscripten repo
 git clone https://github.com/emscripten-core/emsdk.git
+
 // navigate to the file location in Terminal
 cd emsdk
+
 // Download latest version
 .\emsdk install latest
+
 // activate it
 .\emsdk activate latest
+
 // path activation
 .\emsdk_env.bat
+
 
 the steps above are for windows which i used for it, if u trying to download it on linux or mac then kindly follow the steps on Emscripten page: https://emscripten.org/docs/getting_started/downloads.html
 
