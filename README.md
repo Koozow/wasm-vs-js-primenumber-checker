@@ -25,6 +25,8 @@ cd emsdk
 the steps above are for windows which i used for it, if u trying to download it on linux or mac then kindly follow the steps on Emscripten page:
 https://emscripten.org/docs/getting_started/downloads.html
 
+and for Emscripten to work couple tools are needed to be installed as well (Node.js, Python, Java, Git-Client und CMake). Links for them can be found on the above mentioned link on Emscripten Website.
+
 after that you can start the yarn server which is already included
 
 yarn start
